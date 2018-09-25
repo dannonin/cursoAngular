@@ -7,6 +7,7 @@ import PouchDB from 'pouchdb';
 export class BaseDatosService {
   db_productos_local: PouchDB.Database;
   db_productos_remote: PouchDB.Database;
+  test: 'prueba branch git';
 
   constructor() {
     this.db_productos_local = new PouchDB('productos');
